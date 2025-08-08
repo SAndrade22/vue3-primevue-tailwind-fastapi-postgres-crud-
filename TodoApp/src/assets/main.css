@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #4f9ec4; 
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+.dark .p-datatable .p-datatable-thead > tr > th {
+  background-color: #1f2937;
+  color: #f3f4f6; 
+}
+
+
+.p-datatable .p-datatable-tbody > tr > td {
+  background-color: #f8fafc !important;
+  color: #1f2937; 
+  font-size: 0.95rem;
+}
+
+
+.p-datatable .p-datatable-tbody > tr:hover > td {
+  background-color: #afd2e4 !important;
+}
+
+
+.dark .p-datatable .p-datatable-tbody > tr > td {
+  background-color: #111827 !important;
+  color: #f3f4f6;
+}
+
